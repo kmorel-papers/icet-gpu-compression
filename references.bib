@@ -1,0 +1,495 @@
+@inproceedings{Moreland_2011,
+ author = {Moreland, Kenneth and Kendall, Wesley and Peterka, Tom and Huang, Jian},
+ title = {An Image Compositing Solution at Scale},
+ year = {2011},
+ isbn = {9781450307710},
+ publisher = {Association for Computing Machinery},
+ address = {New York, NY, USA},
+ url = {https://doi.org/10.1145/2063384.2063417},
+ doi = {10.1145/2063384.2063417},
+ abstract = {The only proven method for performing distributed-memory parallel rendering at large scales, tens of thousands of nodes, is a class of algorithms called sort last. The fundamental operation of sort-last parallel rendering is an image composite, which combines a collection of images generated independently on each node into a single blended image. Over the years numerous image compositing algorithms have been proposed as well as several enhancements and rendering modes to these core algorithms. However, the testing of these image compositing algorithms has been with an arbitrary set of enhancements, if any are applied at all. In this paper we take a leading production-quality image-compositing framework, IceT, and use it as a testing framework for the leading image compositing algorithms of today. As we scale IceT to ever increasing job sizes, we consider the image compositing systems holistically, incorporate numerous optimizations, and discover several improvements to the process never considered before. We conclude by demonstrating our solution on 64K cores of the Intrepid Blue-Gene/P at Argonne National Laboratories.},
+ booktitle = {Proceedings of 2011 International Conference for High Performance Computing, Networking, Storage and Analysis},
+ articleno = {25},
+ numpages = {10},
+ keywords = {parallel scientific visualization, image compositing},
+ location = {Seattle, Washington},
+ series = {SC '11}
+}
+
+@techreport{IceT_UserGuide,
+ author = {Moreland, Kenneth},
+ title = {{IceT} Users' Guide and Reference: Version 2.1},
+ institution = {Sandia National Laboratories},
+ year = {2011},
+ url = {https://icet.sandia.gov/\_assets/documents/IceTUsersGuide-2-1.pdf}
+}
+
+@inproceedings{Moreland_2001,
+ author = {Kenneth Moreland and Brian Wylie and Constantine Pavlakos},
+ title = {Sort-Last Parallel Rendering on Tile Displays},
+ booktitle = {Proceedings of IEEE 2001 Symposium on Parallel and Large-Data Visualization and Graphics},
+ month = {October},
+ year = {2001},
+ pages = {85--92},
+}
+
+@inproceedings{Emerson_2019,
+ author={L. {Emerson} and T. {Marrinan}},
+ booktitle={2019 IEEE 9th Symposium on Large Data Analysis and Visualization (LDAV)}, 
+ title={Real-Time Compression of Dynamically Generated Images for Offscreen Rendering}, 
+ year={2019},
+ volume={},
+ number={},
+ pages={91-92},
+ doi={10.1109/LDAV48142.2019.8944381}
+}
+
+@inproceedings{Stahli_2018,
+ author = {St\"{a}hli, Lisa and Rudi, David and Raubal, Martin},
+ title = {Turbulence Ahead - A {3D} Web-Based Aviation Weather Visualizer},
+ year = {2018},
+ isbn = {9781450359481},
+ url = {https://doi-org/10.1145/3242587.3242624},
+ doi = {10.1145/3242587.3242624},
+ abstract = {Although severe aircraft accidents have been reduced in the last decades, the number of injuries and fatalities caused by turbulence is still rising. Current aviation weather products are unable to provide a holistic and intuitive view of the overall weather situation, especially in terms of turbulence forecasts. This work introduces an interactive 3D prototype developed with a user-centered design approach. The prototype focuses on the visualization of significant weather charts, which are utilized during flight preparation. An online user study is conducted to compare the prototype with today's 2D paper maps. A total of 64 pilots from an internationally operating airline participated in the study. Among the major findings of the study is that the prototype significantly decreased the cognitive load, and enhanced spatial awareness and usability. To determine the spatial awareness, a novel similarity measure for spatial configurations of aviation weather data is introduced.},
+ booktitle = {Proceedings of the 31st Annual ACM Symposium on User Interface Software and Technology},
+ pages = {299–311},
+ numpages = {13},
+ keywords = {user interface, aviation, web, turbulence, 3d, spatial awareness, weather},
+ location = {Berlin, Germany},
+ series = {UIST '18}
+}
+
+@article{Taylor_2000,
+ author = {Taylor, Russell M.},
+ title = {Practical Scientific Visualization Examples},
+ year = {2000},
+ issue_date = {February 2000},
+ volume = {34},
+ number = {1},
+ issn = {0097-8930},
+ url = {https://doi-org/10.1145/563788.604456},
+ doi = {10.1145/563788.604456},
+ abstract = {Scientific visualization has yet to become a discipline founded on well-understood principles. In some cases we have rules of thumb, and there are studies that probe the capabilities and limitations of specific techniques. For the most part, however, visualization consists of a collection of ad hoc techniques and lovely examples. This article collects examples where visualization was found to be useful for particular insights or where it enabled new and fruitful types of experiment.},
+ journal = {SIGGRAPH Comput. Graph.},
+ month = feb,
+ pages = {74–79},
+ numpages = {6}
+}
+
+@article {Eilemann_2009,
+ author = {S. Eilemann and M. Makhinya and R. Pajarola},
+ journal = {IEEE Transactions on Visualization \& Computer Graphics},
+ title = {Equalizer: A Scalable Parallel Rendering Framework},
+ year = {2009},
+ volume = {15},
+ number = {03},
+ issn = {1941-0506},
+ pages = {436-452},
+ keywords = {parallel rendering;scalable visualization;cluster graphics;display wall},
+ doi = {10.1109/TVCG.2008.104},
+ publisher = {IEEE Computer Society},
+ address = {Los Alamitos, CA, USA},
+ month = {may}
+}
+
+@article{Eilemann_2020,
+ author={Eilemann, Stefan and Steiner, David and Pajarola, Renato},
+ journal={IEEE Transactions on Visualization and Computer Graphics}, 
+ title={Equalizer 2.0–Convergence of a Parallel Rendering Framework}, 
+ year={2020},
+ volume={26},
+ number={2},
+ pages={1292-1307},
+ doi={10.1109/TVCG.2018.2870822}
+}
+
+@misc{Thrust,
+ title = {Thrust},
+ key = {Thrust},
+ howpublished = {\url{https://docs.nvidia.com/cuda/thrust/index.html}},
+ note = {Accessed: 2021-04-22}
+}
+
+@misc{Vulkan,
+ title = {Vulkan},
+ key = {Vulkan},
+ howpublished = {\url{https://www.vulkan.org/}},
+ note = {Accessed: 2021-04-22}
+}
+
+@misc{ParaView,
+ title = {{ParaView}},
+ key = {ParaView},
+ howpublished = {\url{https://www.paraview.org/}},
+ note = {Accessed: 2021-04-22}
+}
+
+@misc{VisIt,
+ title = {{VisIt}},
+ key = {VisIt},
+ howpublished = {\url{https://wci.llnl.gov/simulation/computer-codes/visit}},
+ note = {Accessed: 2021-04-22}
+}
+
+@inproceedings{Revanth_2012,
+ author = {Revanth, N. R. and Narayanan, P. J.},
+ title = {Distributed Massive Model Rendering},
+ year = {2012},
+ isbn = {9781450316606},
+ publisher = {Association for Computing Machinery},
+ address = {New York, NY, USA},
+ url = {https://doi-org/10.1145/2425333.2425375},
+ doi = {10.1145/2425333.2425375},
+ abstract = {Graphics models are getting increasingly bulkier with detailed geometry, textures, normal maps, etc. There is a lot of interest to model and navigate through detailed models of large monuments. Many monuments of interest have both rich detail and large spatial extent. Rendering them for navigation on a single workstation is practically impossible, even given the power of today's CPUs and GPUs. Many models may not fit the GPU memory, the CPU memory, or even the secondary storage of the CPU. Distributed rendering using a cluster of workstations is the only way to navigate through such models. In this paper, we present a design of a distributed rendering system intended for massive models. Our design has a server that holds the skeleton of the whole model, namely, its scenegraph with actual geometry replaced by bounding boxes at all levels. The server divides the screen space among a number of clients and sends them a list of objects they need to render using a frustum culling step. The clients use 2 GPUs with one devoted to visibility culling and the other to rendering. Frustum culling at the server, visibility culling on one GPU, and rendering on the second GPU form the stages of our distributed rendering pipeline. We describe the design and implementation of our system and demonstrate the results of rendering relatively large models using different clusters of clients in this paper.},
+ booktitle = {Proceedings of the Eighth Indian Conference on Computer Vision, Graphics and Image Processing},
+ articleno = {42},
+ numpages = {8},
+ keywords = {parallel rendering, massive model rendering, load balanced rendering, distributed rendering, ICVGIP2012},
+ location = {Mumbai, India},
+ series = {ICVGIP '12}
+}
+
+@article{Doerr_2011,
+ author={Doerr, Kai-Uwe and Kuester, Falko},
+ journal={IEEE Transactions on Visualization and Computer Graphics}, 
+ title={{CGLX}: A Scalable, High-Performance Visualization Framework for Networked Display Environments}, 
+ year={2011},
+ volume={17},
+ number={3},
+ pages={320-332},
+ doi={10.1109/TVCG.2010.59}
+}
+
+@inproceedings{Humphreys_2001,
+ author = {Humphreys, Greg and Eldridge, Matthew and Buck, Ian and Stoll, Gordan and Everett, Matthew and Hanrahan, Pat},
+ title = {{WireGL}: A Scalable Graphics System for Clusters},
+ year = {2001},
+ isbn = {158113374X},
+ publisher = {Association for Computing Machinery},
+ address = {New York, NY, USA},
+ url = {https://doi-org/10.1145/383259.383272},
+ doi = {10.1145/383259.383272},
+ abstract = {We describe WireGL, a system for scalable interactive rendering on a cluster of workstations. WireGL provides the familiar OpenGL API to each node in a cluster, virtualizing multiple graphics accelerators into a sort-first parallel renderer with a parallel interface. We also describe techniques for reassembling an output image from a set of tiles distributed over a cluster. Using flexible display management, WireGL can drive a variety of output devices, from standalone displays to tiled display walls. By combining the power of virtual graphics, the familiarity and ordered semantics of OpenGL, and the scalability of clusters, we are able to create time-varying visualizations that sustain rendering performance over 70,000,000 triangles per second at interactive refresh rates using 16 compute nodes and 16 rendering nodes.},
+ booktitle = {Proceedings of the 28th Annual Conference on Computer Graphics and Interactive Techniques},
+ pages = {129–140},
+ numpages = {12},
+ keywords = {cluster rendering, scalable rendering, remote graphics, virtual graphics, parallel rendering, tiled displays},
+ series = {SIGGRAPH '01}
+}
+
+@inproceedings{Humphreys_2002,
+ author = {Humphreys, Greg and Houston, Mike and Ng, Ren and Frank, Randall and Ahern, Sean and Kirchner, Peter D. and Klosowski, James T.},
+ title = {Chromium: A Stream-Processing Framework for Interactive Rendering on Clusters},
+ year = {2002},
+ isbn = {1581135211},
+ publisher = {Association for Computing Machinery},
+ address = {New York, NY, USA},
+ url = {https://doi-org/10.1145/566570.566639},
+ doi = {10.1145/566570.566639},
+ abstract = {We describe Chromium, a system for manipulating streams of graphics API commands on clusters of workstations. Chromium's stream filters can be arranged to create sort-first and sort-last parallel graphics architectures that, in many cases, support the same applications while using only commodity graphics accelerators. In addition, these stream filters can be extended programmatically, allowing the user to customize the stream transformations performed by nodes in a cluster. Because our stream processing mechanism is completely general, any cluster-parallel rendering algorithm can be either implemented on top of or embedded in Chromium. In this paper, we give examples of real-world applications that use Chromium to achieve good scalability on clusters of workstations, and describe other potential uses of this stream processing technology. By completely abstracting the underlying graphics architecture, network topology, and API command processing semantics, we allow a variety of applications to run in different environments.},
+ booktitle = {Proceedings of the 29th Annual Conference on Computer Graphics and Interactive Techniques},
+ pages = {693–702},
+ numpages = {10},
+ keywords = {scalable rendering, parallel rendering, remote graphics, stream processing, cluster rendering, virtual graphics, tiled displays},
+ location = {San Antonio, Texas},
+ series = {SIGGRAPH '02}
+}
+
+@inproceedings{Makhinya_2010,
+ author = {Makhinya, M. and Eilemann, S. and Pajarola, R.},
+ title = {Fast Compositing for Cluster-Parallel Rendering},
+ year = {2010},
+ isbn = {9783905674217},
+ publisher = {Eurographics Association},
+ address = {Goslar, DEU},
+ abstract = {The image compositing stages in cluster-parallel rendering for gathering and combining partial rendering results into a final display frame are fundamentally limited by node-to-node image throughput. Therefore, efficient image coding, compression and transmission must be considered to minimize that bottleneck. This paper studies the different performance limiting factors such as image representation, region-of-interest detection and fast image compression. Additionally, we show improved compositing performance using lossy YUV subsampling and we propose a novel fast region-of-interest detection algorithm that can improve in particular sort-last parallel rendering.},
+ booktitle = {Proceedings of the 10th Eurographics Conference on Parallel Graphics and Visualization},
+ pages = {111–120},
+ numpages = {10},
+ location = {Norrk\"{o}ping, Sweden},
+ series = {EG PGV '10}
+}
+
+@inproceedings{Funasaka_2015,
+ author={Funasaka, Shunji and Nakano, Koji and Ito, Yasuaki},
+ booktitle={2015 Third International Symposium on Computing and Networking (CANDAR)}, 
+ title={Fast {LZW} Compression Using a {GPU}}, 
+ year={2015},
+ volume={},
+ number={},
+ pages={303-308},
+ doi={10.1109/CANDAR.2015.20}
+}
+
+@inproceedings{Alam_2018,
+ author={Alam, Md. Ashraful and Ahsan, Fakhrul and Soobhee, Ateeq-Ur-Rahman and Subhani, Mahfuze and Fahmid Hossain, F. M. and Saiful Islam, Md. and Ruma, Kamrun Nahar},
+ booktitle={2018 Joint 7th International Conference on Informatics, Electronics   Vision (ICIEV) and 2018 2nd International Conference on Imaging, Vision   Pattern Recognition (icIVPR)}, 
+ title={Faster Image Compression Technique Based on {LZW} Algorithm Using {GPU} Parallel Processing}, 
+ year={2018},
+ volume={},
+ number={},
+ pages={272-275},
+ doi={10.1109/ICIEV.2018.8640956}
+}
+
+@mastersthesis{Rutter_2011,
+ author = {Ruth Rutter}, 
+ title = {Run-length Encoding on Graphics Hardware},
+ school = {University of Alaska at Fairbanks},
+ year = {2011}
+}
+
+@article{Welch_1984,
+ author={Welch},
+ journal={Computer}, 
+ title={A Technique for High-Performance Data Compression}, 
+ year={1984},
+ volume={17},
+ number={6},
+ pages={8-19},
+ doi={10.1109/MC.1984.1659158}
+}
+
+@article{Robinson_1967,
+ author={Robinson, A.H. and Cherry, C.},
+ journal={Proceedings of the IEEE}, 
+ title={Results of a prototype television bandwidth compression scheme}, 
+ year={1967},
+ volume={55},
+ number={3},
+ pages={356-364},
+ doi={10.1109/PROC.1967.5493}
+}
+
+@techreport{Castano_2007,
+ author={Ignacio Castaño},
+ title={High Quality {DXT} Compression using {CUDA}},
+ institution={NVIDIA},
+ year={2007}
+}
+
+@Article{Molnar1994,
+  author  = {Steven Molnar and Michael Cox and David Ellsworth and Henry Fuchs},
+  title   = {A Sorting Classification of Parallel Rendering},
+  journal = {IEEE Computer Graphics and Applications},
+  year    = {1994},
+  volume  = {14},
+  number  = {4},
+  pages   = {23--32},
+  month   = {July},
+}
+
+
+@Article{Wylie2001,
+  author  = {Brian Wylie and Constantine Pavlakos and Vasily Lewis and Kenneth Moreland},
+  title   = {Scalable Rendering on {PC} Clusters},
+  journal = {IEEE Computer Graphics and Applications},
+  year    = {2001},
+  volume  = {21},
+  number  = {4},
+  pages   = {62--70},
+  month   = {July/August},
+}
+
+
+@Article{Hereld2000,
+  author   = {Mark Hereld and Ivan R. Judson and Rick L. Stevens},
+  journal  = {IEEE Computer Graphics and Applications},
+  title    = {Introduction to Building Projection-based Tiled Display Systems},
+  year     = {2000},
+  month    = jul,
+  number   = {4},
+  pages    = {22--28},
+  volume   = {20},
+  doi      = {10.1109/38.851746},
+}
+
+@InProceedings{Neal2011,
+  author    = {Braden Neal and Paul Hunkin and Antony McGregor},
+  booktitle = {Eurographics Symposium on Parallel Graphics and Visualization},
+  title     = {Distributed {OpenGL} Rendering in Network Bandwidth Constrained Environments},
+  year      = {2011},
+  doi       = {10.2312/EGPGV/EGPGV11/021-029},
+}
+
+@InProceedings{Samanta1999,
+  author    = {Rudrajit Samanta and Jiannan Zheng and Thomas Funkhouser and Kai Li and Jaswinder Pal Singh},
+  booktitle = {Proceedings of the ACM SIGGRAPH/EUROGRAPHICS Workshop on Graphics Hardware (HWWS '99)},
+  title     = {Load Balancing for Multi-Projector Rendering Systems},
+  year      = {1999},
+  pages     = {107--116},
+  doi       = {10.1145/311534.311584},
+}
+
+@InProceedings{Dong2019,
+  author    = {Dong, Yangzi and Peng, Chao},
+  booktitle = {Eurographics Symposium on Parallel Graphics and Visualization},
+  title     = {Screen Partitioning Load Balancing for Parallel Rendering on a Multi-{GPU} Multi-Display Workstation},
+  year      = {2019},
+  doi       = {10.2312/pgv.20191111},
+}
+
+@Article{Childs2010,
+  author   = {Hank Childs and David Pugmire and Sean Ahern and Brad Whitlock and Mark Howison and Prabhat and Gunther H. Weber and E. Wes Bethel},
+  title    = {Extreme Scaling of Production Visualization Software on Diverse Architectures},
+  journal  = {IEEE Computer Graphics and Applications},
+  year     = {2010},
+  volume   = {30},
+  number   = {3},
+  pages    = {22--31},
+  month    = {May/June},
+  doi      = {10.1109/MCG.2010.51},
+}
+
+@InProceedings{Ahrens1998,
+  author    = {James Ahrens and James Painter},
+  title     = {Efficient Sort-Last Rendering Using Compression-Based Image Compositing},
+  booktitle = {Second Eurographics Workshop on Parallel Graphics and Visualization},
+  year      = {1998},
+  month     = {September},
+}
+
+@Article{Grosset2017,
+  author   = {A. V. Pascal Grosset and Manasa Prasad and Cameron Christensen and Aaron Knoll and Charles Hansen},
+  title    = {{TOD-Tree}: Task-Overlapped Direct Send Tree Image Compositing for Hybrid MPI Parallelism and GPUs},
+  journal  = {IEEE Transactions on Visualization and Computer Graphics},
+  year     = {2017},
+  volume   = {23},
+  number   = {6},
+  pages    = {1677--1690},
+  month    = jun,
+  doi      = {10.1109/TVCG.2016.2542069},
+}
+
+@InProceedings{Larsen2016,
+  author    = {Matthew Larsen and Kenneth Moreland and Chris Johnson and Hank Childs},
+  title     = {Optimizing Multi-Image Sort-Last Parallel Rendering},
+  booktitle = {Proceedings of the IEEE Symposium on Large Data Analysis and Visualization (LDAV)},
+  year      = {2016},
+  month     = oct,
+  doi       = {10.1109/LDAV.2016.7874308},
+}
+
+@Article{Lin2004,
+  author   = {Chin-Feng Lin and Shih-Kuan Liao and Yeh-Ching Chung and Don-Lin Yang},
+  title    = {A Rotate-Tiling Image Compositing Method for Sort-Last Parallel Volume Rendering Systems on Distributed Memory Multicomputers},
+  journal  = {Journal of Information Science and Engineering},
+  year     = {2004},
+  volume   = {20},
+  number   = {4},
+  pages    = {643--664},
+}
+
+@InProceedings{Moreland2018,
+  author    = {Kenneth Moreland},
+  booktitle = {Proceedings of the 8th IEEE Symposium on Large Data Analysis and Visualization (LDAV)},
+  title     = {Comparing Binary-Swap Algorithms for Odd Factors of Processes},
+  year      = {2018},
+  month     = oct,
+  doi       = {10.1109/LDAV.2018.8739210},
+}
+
+@Article{Nonaka2018,
+  author   = {Jorji Nonaka and Kenji Ono and Masahiro Fujita},
+  title    = {{234Compositor}: A flexible parallel image compositing framework for massively parallel visualization environments},
+  journal  = {Future Generation Computer Systems},
+  year     = {2018},
+  volume   = {82},
+  pages    = {647--655},
+  doi      = {10.1016/j.future.2017.02.011},
+}
+
+@InProceedings{Peterka2009,
+  author    = {Tom Peterka and David Goodell and Robert Ross and Han-Wei Shen and Rajeev Thakur},
+  title     = {A Configurable Algorithm for Parallel Image-Compositing Applications},
+  booktitle = {Proceedings of the Conference on High Performance Computing Networking, Storage and Analysis (SC '09)},
+  year      = {2009},
+  month     = {November},
+  comment   = {Introduces the radix-k sort-last image-compositing parallel-rendering algorithm.},
+  doi       = {10.1145/1654059.1654064},
+}
+
+@InProceedings{Takeuchi2003,
+  author    = {Akira Takeuchi and Fumihiko Ino and Kenichi Hagihara},
+  title     = {An Improvement on Binary-Swap Compositing for Sort-Last Parallel Rendering},
+  booktitle = {Proceedings of the 2003 ACM Symposium on Applied Computing},
+  year      = {2003},
+  pages     = {996--1002},
+  doi       = {10.1145/952532.952728},
+}
+
+@InProceedings{Yang1999,
+  author    = {Don-Lin Yang and Jen-Chih Yu and Yeh-Ching Chung},
+  title     = {Efficient Compositing Methods for the Sort-Last-Sparse Parallel Volume Rendering System on Distributed Memory Multicomputers},
+  booktitle = {1999 International Conference on Parallel Processing},
+  year      = {1999},
+  pages     = {200--207},
+  doi       = {10.1109/ICPP.1999.797405},
+}
+
+@InProceedings{Yu2008,
+  author    = {Hongfeng Yu and Chaoli Wang and Kwan-Liu Ma},
+  title     = {Massively Parallel Volume Rendering Using 2-3 Swap Image Compositing},
+  booktitle = {Proceedings of the 2008 ACM/IEEE Conference on Supercomputing},
+  year      = {2008},
+  month     = {November},
+  comment   = {A varient of binary swap that handles non-powers of two.  Works by allowing groups of either two or three, possibly at the same time.  If both are used, the images are re-partitioned to sixths and redistributed/composited as necessary.},
+  doi       = {10.1109/SC.2008.5219060},
+}
+
+@Article{Ma1994,
+  author  = {Kwan-Liu Ma and James S. Painter and Charles D. Hansen and Michael F. Krogh},
+  title   = {Parallel Volume Rendering Using Binary-Swap Compositing},
+  journal = {IEEE Computer Graphics and Applications},
+  year    = {1994},
+  volume  = {14},
+  number  = {4},
+  pages   = {59--68},
+  month   = {July/August},
+  doi     = {10.1109/38.291532},
+}
+
+@article{Huffman_1952,
+  author={Huffman, David A.},
+  journal={Proceedings of the IRE}, 
+  title={A Method for the Construction of Minimum-Redundancy Codes}, 
+  year={1952},
+  volume={40},
+  number={9},
+  pages={1098-1101},
+  doi={10.1109/JRPROC.1952.273898}
+}
+
+@inproceedings{Yamamoto_2020,
+ author = {Yamamoto, Naoya and Nakano, Koji and Ito, Yasuaki and Takafuji, Daisuke and Kasagi, Akihiko and Tabaru, Tsuguchika},
+ title = {Huffman Coding with Gap Arrays for GPU Acceleration},
+ year = {2020},
+ isbn = {9781450388160},
+ publisher = {Association for Computing Machinery},
+ address = {New York, NY, USA},
+ url = {https://doi.org/10.1145/3404397.3404429},
+ doi = {10.1145/3404397.3404429},
+ abstract = { Huffman coding is a fundamental lossless data compression scheme used in many data
+compression file formats such as gzip, zip, png, and jpeg. Huffman encoding is easily
+parallelized, because all 8-bit symbols can be converted into codewords independently.
+On the other hand, since an encoded codeword sequence has no separator to identify
+each codeword, parallelizing Huffman decoding is a much harder task. This work presents
+a new data structure called gap array to be attached to an encoded codeword sequence
+of Huffman coding for accelerating parallel Huffman decoding. In addition, it also
+shows that GPU Huffman encoding and decoding can be accelerated by several techniques
+including (1) the Single Kernel Soft Synchronization (SKSS), (2) wordwise global memory
+access and (3) compact codebooks. The experimental results for 10 files on NVIDIA
+Tesla V100 GPU show that our GPU Huffman encoding and decoding run 2.87x-7.70x times
+and 1.26x-2.63x times faster than previously presented GPU Huffman encoding and decoding,
+respectively. Also, Huffman decoding can be further accelerated by a factor of 1.67x-6450x
+if a gap array is attached to an encoded codeword sequence. Since the size and computing
+overhead of gap arrays in Huffman encoding are small, we can conclude that gap arrays
+should be introduced for GPU Huffman encoding and decoding.},
+ booktitle = {49th International Conference on Parallel Processing - ICPP},
+ articleno = {1},
+ numpages = {11},
+ keywords = {loss-less data compression, parallel computing},
+ location = {Edmonton, AB, Canada},
+ series = {ICPP '20}
+}
